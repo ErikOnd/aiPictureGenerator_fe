@@ -152,6 +152,7 @@ const FormComponent = () => {
                   src={image.url}
                   alt={userData.prompt}
                   fluid="true"
+                  className="ai-img"
                 ></Image>
               </Col>
             );
